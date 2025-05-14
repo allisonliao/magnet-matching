@@ -96,4 +96,4 @@ def update(frame):
 ani = animation.FuncAnimation(fig, update, init_func=init, frames=steps, blit=True)
 plt.show()
 
-ani.save("magnet_simulation.gif", writer="pillow", fps=30)
+ani.save("kabsch_simulation.gif", writer="pillow", fps=30)
