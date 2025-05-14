@@ -39,7 +39,7 @@ def compute_matching(A, B):
 
 
 # Initial setup
-np.random.seed(0)
+np.random.seed(0)  # change seed for different spawn
 n_points = 6
 A = np.random.rand(n_points, 2) * 5
 angle = np.pi / 4
